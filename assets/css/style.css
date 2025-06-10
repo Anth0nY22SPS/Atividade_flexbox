@@ -28,7 +28,7 @@ ul{
     flex-direction: row;
     background-color: rgb(17, 17, 156);
     width: 100vw;
-    height: 40px;
+    height: 70px;
     align-items: center;
 }
 
@@ -40,22 +40,23 @@ li{
     font-size: 20px;
     color: white;
     list-style-type: none;
-    margin-left: 150px;
+    margin-left: 15vw;
 }
 
 
 main #textoPrincipal{
-    color: black;
-    font-size: 45px;
-    margin-left: 30%;
-    margin-top: 4%;
+    padding-top: 2%;
+    color: rgb(255, 255, 255);
+    font-size: 55px;
+    margin-left: 40%;
 }
 
 
-main p{
-    margin-left: 26%;
+.mainText{
+    color: rgb(250, 6, 6);
+    margin-left: 30%;
     margin-top: 3%;
-    font-size: 20px;
+    font-size: 40px;
 }
 
 .cards_action{
@@ -71,11 +72,12 @@ main p{
 }
 
 .cards_action img{
-    height: 60%;
-    width: 60%;
+    height: 70%;
+    width: 70%;
 }
 
 .cards1{
+    background-color: white;
     text-align: center;
     width: 40vw;
     height: 90vh;
@@ -85,10 +87,7 @@ main p{
 
 .cards1:hover{
     transition: 5ms;
-    box-shadow: 1px 1px 11px 0px rgb(0, 17, 255);
-}
-.cards1 p{ 
-    margin-right: 30%;
+    box-shadow: 1px 1px 40px 0px rgb(0, 17, 255);
 }
 
 .cards1 button{ 
@@ -110,10 +109,7 @@ main p{
 }
 .cards2:hover{
     transition: 5ms;
-    box-shadow: 1px 1px 11px 0px rgb(0, 17, 255);
-}
-.cards2 p{ 
-    margin-right: 20%;
+    box-shadow: 1px 1px 40px 0px rgb(0, 17, 255);
 }
 
 .cards2 button{ 
@@ -134,10 +130,7 @@ main p{
 }
 .cards3:hover{
     transition: 5ms;
-    box-shadow: 1px 1px 11px 0px rgb(0, 17, 255);
-}
-.cards3 p{ 
-    margin-right: 20%;
+    box-shadow: 1px 1px 40px 0px rgb(0, 17, 255);
 }
 
 .cards3 button{ 
@@ -157,10 +150,7 @@ main p{
 }
 .cards4:hover{
     transition: 5ms;
-    box-shadow: 1px 1px 11px 0px rgb(0, 17, 255);
-}
-.cards4 p{ 
-    margin-right: 16%;
+    box-shadow: 1px 1px 40px 0px rgb(0, 17, 255);
 }
 
 .cards4 button{ 
@@ -173,7 +163,6 @@ main p{
 
 
 footer{
-    margin-top: 8%;
     background-color: rgb(17, 17, 156);
     height: 20vh;
     width: 100vw;
@@ -183,4 +172,13 @@ footer p {
     padding-top: 4%;
     text-align: center;
     color: white;
+}
+
+
+main{
+    background-image: url(/assets/img/space-stars.png);
+}
+
+.card{
+    background-color: white;
 }
